@@ -1,0 +1,14 @@
+{
+  "name": "com.agava.menuextender",
+  "version": "1.0.0",
+  "displayName": "Unity Generic Menu Extender",
+  "unity": "2020.3",
+  "description": "Implementation of the generic menu extension in standard Unity windows.",
+  "samples": [
+    {
+      "displayName": "Menu Extender Sample",
+      "description": "Contains samples for creating custom menus in Unity windows",
+      "path": "Samples~/MenuExtender"
+    }
+  ]
+}
