@@ -2,7 +2,6 @@ using HarmonyLib;
 using System;
 using System.Linq;
 using UnityEditor;
-using UnityEngine;
 
 namespace Agava.MenuExtender
 {

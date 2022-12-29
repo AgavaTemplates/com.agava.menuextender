@@ -43,12 +43,13 @@ namespace Agava.MenuExtender
             foreach (var type in types)
             {
                 object[] attributes = type.GetCustomAttributes(false);
-                foreach (Attribute attr in attributes)
+
+                foreach (Attribute attribute in attributes)
                 {
-                    if (attr is MenuWindowAttribute ageAttribute)
+                    if (attribute is MenuWindowAttribute menuWindowAttribute)
                     {
                         methods.Add(AccessTools.Method(type, VirtualMethodName));
-                        methods.Add(ageAttribute.Window.Method());
+                        methods.Add(menuWindowAttribute.Window.Method());
                     }
                 }
             }
